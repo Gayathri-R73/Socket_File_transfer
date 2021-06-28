@@ -19,7 +19,7 @@ def soc():
     s = socket.socket()
     local = socket.gethostname()  
     print(local)
-    host= 'X.X.X.X'                 # IP of RPi (CLIENT)       
+    host= 'X.X.X.X'                 # IP of CLIENT
     port = 12345   
     s.connect((host,port))
     fnm = "to send.jpg"
