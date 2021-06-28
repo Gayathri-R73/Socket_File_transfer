@@ -8,7 +8,7 @@ s = socket.socket()                     # Create a socket object
 host = socket.gethostname()             # Get local(COMP) machine name
 print(host)
 
-host= 'X.X.X.X'                         # IP of RPi (CLIENT)
+host= 'X.X.X.X'                         # IP of CLIENT
 port = 12345                            # Reserve a port for your service.
 s.bind((host, port))                    # Bind to the port
 s.listen(5)                             # Now wait for client connection.
